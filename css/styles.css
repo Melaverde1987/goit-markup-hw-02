@@ -1,0 +1,96 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  color: var(--slate);
+}
+
+/* Header */
+
+.logo {
+  color: var(--navy-blue);
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo .logo-item {
+  color: var(--iris);
+}
+
+.nav-list .nav-item {
+  list-style: none;
+}
+
+.nav-list .nav-link {
+  text-decoration: none;
+  color: var(--navy-blue);
+  font-weight: 500;
+}
+
+.nav-list .nav-link:active {
+  color: var(--ocean);
+}
+
+.address-list .address-item {
+  list-style: none;
+}
+
+.address-list .address-link {
+  text-decoration: none;
+  color: var(--slate);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.address-list .address-link:active {
+  color: var(--ocean);
+}
+
+/* Hero Section */
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero .headline {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.hero .button {
+  color: var(--white);
+  background-color: var(--iris);
+  border: none;
+}
+
+.hero .button:hover {
+  background-color: var(--ocean);
+}
+
+/* Strategy Section */
+.strategy .strategy-headline {
+  display: none;
+}
+
+.strategy .strategy-title {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.strategy .strategy-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
