@@ -2,9 +2,9 @@
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
-  --green: #31d0aa;
   --slate: #434455;
   --white: #ffffff;
+  --cloud: #f4f4fd;
 }
 
 body {
@@ -91,6 +91,57 @@ body {
 }
 
 .strategy .strategy-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Work Section*/
+.work .work-headline {
+  color: var(--navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+/* Team Section */
+.team {
+  background-color: var(--cloud);
+}
+
+.team .team-headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--navy-blue);
+}
+
+.team .team-card {
+  background-color: var(--white);
+}
+
+.team .team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+  letter-spacing: 0.02em;
+}
+
+.team .team-description {
+  letter-spacing: 0.02em;
+}
+
+/* Footer Section */
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.footer .footer-logo {
+  color: var(--cloud);
+}
+
+.footer .footer-text {
+  color: var(--cloud);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
