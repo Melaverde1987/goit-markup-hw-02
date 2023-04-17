@@ -169,6 +169,18 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Projects Section */
+.projects .projects-card .project-title {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.projects .projects-card .project-description {
+  line-height: 1.5;
+}
+
 /* Footer Section */
 .footer {
   background-color: var(--navy-blue);
