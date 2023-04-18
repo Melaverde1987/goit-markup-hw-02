@@ -10,16 +10,13 @@
 
   /* Fonts */
   --font-secondary: Raleway, sans-serif;
-
-  /* Others */
-  --letter-spacing: 0.02em;
 }
 
 body {
   font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
   background-color: var(--white);
   color: var(--slate);
-  letter-spacing: var(--letter-spacing);
+  letter-spacing: 0.02em;
 }
 
 /* Reset */
