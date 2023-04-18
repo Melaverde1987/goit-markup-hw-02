@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: Roboto, Verdana, Tahoma, sans-serif;
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
   background-color: var(--white);
   color: var(--slate);
   letter-spacing: var(--letter-spacing);
@@ -52,7 +52,7 @@ body {
 }
 
 .btn {
-  color: var(--white);
+  color: var(--cloud);
   background-color: var(--iris);
   font-family: Roboto, Verdana, Tahoma, sans-serif;
   font-weight: 500;
@@ -109,7 +109,9 @@ body {
 .nav-list .nav-link:active,
 .address-list .address-link:active,
 .nav-list .nav-link:hover,
-.address-list .address-link:hover {
+.address-list .address-link:hover,
+.nav-list .nav-link:focus,
+.address-list .address-link:focus {
   color: var(--ocean);
 }
 
