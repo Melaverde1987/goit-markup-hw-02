@@ -9,7 +9,6 @@
   --cornflower: #e7e9fc;
 
   /* Fonts */
-  --font-primary: Roboto, Verdana, Tahoma, sans-serif;
   --font-secondary: Raleway, sans-serif;
 
   /* Others */
@@ -17,7 +16,8 @@
 }
 
 body {
-  font-family: var(--font-primary);
+  font-family: Roboto, Verdana, Tahoma, sans-serif;
+  background-color: var(--white);
   color: var(--slate);
   letter-spacing: var(--letter-spacing);
 }
@@ -43,9 +43,20 @@ body {
 
 /* General */
 
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
 .btn {
   color: var(--white);
   background-color: var(--iris);
+  font-family: Roboto, Verdana, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
   border: none;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -71,36 +82,33 @@ body {
 /* Header */
 
 .logo {
-  color: var(--navy-blue);
   font-family: var(--font-secondary);
+  color: var(--iris);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-transform: uppercase;
-  text-decoration: none;
   letter-spacing: 0.03em;
 }
 
 .logo .logo-item {
-  color: var(--iris);
+  color: var(--navy-blue);
 }
 
 .nav-list .nav-link {
-  text-decoration: none;
   color: var(--navy-blue);
   font-weight: 500;
   line-height: 1.5;
 }
 
 .address-list .address-link {
-  text-decoration: none;
   color: var(--slate);
-  font-style: normal;
   line-height: 1.5;
 }
 
 .nav-list .nav-link:active,
 .address-list .address-link:active,
+.nav-list .nav-link:hover,
 .address-list .address-link:hover {
   color: var(--ocean);
 }
@@ -114,6 +122,7 @@ body {
   color: var(--white);
   font-weight: 700;
   font-size: 56px;
+  text-align: center;
   line-height: 1.07;
 }
 
@@ -135,8 +144,9 @@ body {
   color: var(--navy-blue);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-transform: capitalize;
+  text-align: center;
 }
 
 /* Team Section */
@@ -147,9 +157,10 @@ body {
 .team .team-headline {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   color: var(--navy-blue);
   text-transform: capitalize;
+  text-align: center;
 }
 
 .team .team-card {
@@ -168,6 +179,7 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Portfolio */
 /* Projects Section */
 .projects .projects-card .project-title {
   color: var(--navy-blue);
@@ -186,6 +198,10 @@ body {
 }
 
 .footer .footer-logo {
+  line-height: 1.17;
+}
+
+.footer .footer-logo .logo-item {
   color: var(--cloud);
 }
 
