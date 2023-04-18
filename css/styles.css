@@ -9,6 +9,7 @@
   --cornflower: #e7e9fc;
 
   /* Fonts */
+  --font-primary: Roboto, Verdana, Tahoma, sans-serif;
   --font-secondary: Raleway, sans-serif;
 
   /* Others */
@@ -16,7 +17,7 @@
 }
 
 body {
-  font-family: Roboto, Verdana, Tahoma, sans-serif;
+  font-family: var(--font-primary);
   color: var(--slate);
   letter-spacing: var(--letter-spacing);
 }
@@ -91,10 +92,6 @@ body {
   line-height: 1.5;
 }
 
-.nav-list .nav-link:active {
-  color: var(--ocean);
-}
-
 .address-list .address-link {
   text-decoration: none;
   color: var(--slate);
@@ -102,7 +99,9 @@ body {
   line-height: 1.5;
 }
 
-.address-list .address-link:active {
+.nav-list .nav-link:active,
+.address-list .address-link:active,
+.address-list .address-link:hover {
   color: var(--ocean);
 }
 
